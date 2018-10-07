@@ -1,0 +1,38 @@
+ul.fixing-bnb li {
+    list-style: none;
+    border-bottom: 1px solid;
+    position: relative;
+}
+ul.fixing-bnb li b {
+  float: right;
+}
+ul.fixing-bnb li span {
+    background: #000000a8;
+    top: -5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+    display: table;
+    padding: 0 4px;
+    border-radius: 3px;
+    opacity: 0;
+}
+ul.fixing-bnb li span::after {
+    content: '';
+    position: absolute;
+    left: calc(50% - 4px);
+    bottom: -8px;
+    width: 0px;
+    height: 0px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #000000a8;
+}
+ul.fixing-bnb li img {
+    margin-bottom: -8px;
+    width: 28px;
+}

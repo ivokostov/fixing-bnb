@@ -1,0 +1,18 @@
+.sortable-bnb {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.sortable-bnb li {
+    margin: 0 3px 3px 3px;
+    padding: 6px;
+    padding-left: 1.5em;
+    font-size: 14px;
+    height: 18px;
+}
+.sortable-bnb li span {
+    position: absolute;
+    margin-left: -1.3em;
+    margin-top: 2px;
+}
